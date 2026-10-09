@@ -76,6 +76,20 @@ Do not upload `db_config.py` or any file containing real database credentials to
 * Tkinter graphical user interface
 
 
+CREATE DATABASE IF NOT EXISTS project;
+USE project;
+
+CREATE TABLE hotel (
+    ino INT NOT NULL PRIMARY KEY,
+    iname VARCHAR(25) DEFAULT NULL,
+    iprice INT DEFAULT NULL
+);
+
+CREATE TABLE report (
+    order_no VARCHAR(25) DEFAULT NULL,
+    tot_amount INT DEFAULT NULL
+);
+
 ### Billing
 
 ![Billing](bill.png)
