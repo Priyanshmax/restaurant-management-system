@@ -26,3 +26,25 @@ Priyansh
 ## Note
 
 This project was developed for learning and educational purposes.
+
+## Screenshots
+
+### Home Screen
+
+![Home Screen](home_screen.png)
+
+### Manage Menu
+
+![Manage Menu](manage%20menu.png)
+
+### New Order and Billing
+
+![New Order and Billing](new%20order%20png.png)
+
+### Sales Report
+
+![Sales Report](sales%20report.png)
+
+### Billing
+
+![Billing](bill.png)
