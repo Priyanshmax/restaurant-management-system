@@ -1,0 +1,5 @@
+
+db_config.py
+db_config.py.py
+__pycache__/
+*.pyc
