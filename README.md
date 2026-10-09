@@ -45,6 +45,37 @@ This project was developed for learning and educational purposes.
 
 ![Sales Report](sales%20report.png)
 
+## Installation and Setup
+
+### Requirements
+
+* Python 3
+* MySQL Server
+* Required Python packages used by the project
+
+### Setup Instructions
+
+1. Clone or download this repository.
+2. Create a MySQL database named `project`.
+3. Create the required tables: `hotel` and `report`.
+4. Copy `db_config.example.py` and rename the copy to `db_config.py`.
+5. Open `db_config.py` and enter your own MySQL username, password, host, and database name.
+6. Install the Python packages required by the project.
+7. Run `restaurant_gui_public.py` using Python.
+
+### Security Note
+
+Do not upload `db_config.py` or any file containing real database credentials to a public repository.
+
+### Project Features
+
+* Restaurant menu management
+* New order and billing
+* Sales report
+* MySQL database integration
+* Tkinter graphical user interface
+
+
 ### Billing
 
 ![Billing](bill.png)
