@@ -76,6 +76,11 @@ Do not upload `db_config.py` or any file containing real database credentials to
 * Tkinter graphical user interface
 
 
+### Database Setup
+
+Run the following SQL commands in MySQL to create the database and required tables:
+
+```sql
 CREATE DATABASE IF NOT EXISTS project;
 USE project;
 
@@ -89,6 +94,7 @@ CREATE TABLE report (
     order_no VARCHAR(25) DEFAULT NULL,
     tot_amount INT DEFAULT NULL
 );
+```
 
 ### Billing
 
