@@ -61,7 +61,8 @@ This project was developed for learning and educational purposes.
 4. Copy `db_config.example.py` and rename the copy to `db_config.py`.
 5. Open `db_config.py` and enter your own MySQL username, password, host, and database name.
 6. Install the Python packages required by the project.
-7. Run `restaurant_gui_public.py` using Python.
+7. pip install -r requirements.txt
+8. Run `restaurant_gui_public.py` using Python.
 
 ### Security Note
 
